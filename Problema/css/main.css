@@ -1,0 +1,45 @@
+/* Ingresa tu código CSS aquí */
+nav {
+	width: 500px;
+	padding: 0;
+	margin: 20px auto;
+	border-top: 1px solid #c83535;
+}
+.menu {
+	list-style: none;
+	margin: 0;
+	color: #000;
+}
+.menu li {
+	float: left;
+	padding: 0;
+	line-height: 1;
+	text-align: center;
+	color: #000;
+}
+.menu li a {
+	color: #000;
+	font-family: Releway;
+	padding: 10px 15px;
+	font-size: 15px;
+	display: block;
+	-webkit-trancition:all .3s ease-in-out;
+	-moz-trancition:all .3s ease-in-out;
+	-ms-trancition:all .3s ease-in-out;
+	-o-trancition:all .3s ease-in-out;
+}
+.menu li a:hover, .menu li .active a {
+	-webkit-box-shadow:0px -4px 0px #3399ff inset;
+	box-shadow: 0px -4px 0px #3399ff;
+	color: #3399ff;
+}
+
+hr {
+    display: inline-block;
+    border: 3px solid ;
+    width: 50px;
+}
+
+
+
+
